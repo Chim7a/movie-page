@@ -1,0 +1,26 @@
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    justify-content: flex-start;
+    height: auto;
+    gap: 20px;
+    padding: 0 20px;
+
+    .movies__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .movies__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+        padding: 10px 0;
+    }
+
+    img {
+        height: 50vh;
+        object-fit: cover;
+    }
+}

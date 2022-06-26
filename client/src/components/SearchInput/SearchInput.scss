@@ -1,0 +1,19 @@
+.SearchInput {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    margin: 20px 0;
+
+    input {
+        padding: 10px 20px;
+        width: 60vw;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        background: rgba(255,255,255,0.2);
+      }
+      
+      ::placeholder {
+        color: #000000;
+      }
+}
